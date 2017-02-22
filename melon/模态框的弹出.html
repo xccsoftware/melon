@@ -1,0 +1,24 @@
+<link type="text/css" rel="stylesheet" href="bootstrap-3.3.7/css/bootstrap.min.css" />
+<script type="text/javascript" src="bootstrap/jquery/jquery-1.12.4.js"></script>
+<script type="text/javascript" src="bootstrap/jquery/jquery.cookie.js"></script>
+<script type="text/javascript" src="bootstrap/jquery-ui-1.12.1/jquery-ui.js"></script>
+<script type="text/javascript" src="bootstrap/js/bootstrap.min.js"></script>
+<script type="text/javascript" src="bootstrap/jquery/public-dialog.js"></script>
+<link type="text/css" rel="stylesheet" href="net/bootstrapvalidator/vendor/bootstrap/css/font-awesome.css">
+<link type="text/css" rel="stylesheet" href="net/bootstrapvalidator/vendor/bootstrap/css/simple-line-icons.css"/>
+<script type="text/javascript">
+	function showDialog1(){
+		top.$('body').modalDialog().show({
+			id:"editModelDialog",
+			url: "model2.html",
+			title: "form样例1",
+			showCloseButton:true
+		});
+		
+	}
+</script>
+<body>
+<button class="btn btn-primary btn-lg" onclick="showDialog1();">
+	form样例1
+</button>
+</body>

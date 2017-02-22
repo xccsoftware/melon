@@ -1,0 +1,16 @@
+[ 
+	{"name":"username","nameCn":"用户姓名","required":true,"validateType":"11","minValue":"2","maxValue":"4"},
+	{"name":"password","nameCn":"密码","required":true,"tips":"密码不能为空"},
+	{"name":"confirmPassword","nameCn":"确认密码","required":true,"tips":"密码不能为空","field":"password","identical":"true"},
+	{"name":"birthday","nameCn":"生日","required":true,"validateType":"31","type":"YYYY-MM-DD"},
+	{"name":"phone","nameCn":"手机号","required":true,"validateType":"41"},
+	{"name":"telephone","nameCn":"电话号","required":true,"validateType":"42"},
+	{"name":"languages[]","nameCn":"语言","required":true,"checkboxs":"true","minValue":"2","maxValue":"4"},
+	{"name":"website","nameCn":"网址","required":true,"validateType":"45"},
+	{"name":"email","nameCn":"邮箱","required":true,"validateType":"43"},
+	{"name":"postCode","nameCn":"邮政","required":true,"validateType":"44"},
+	{"name":"plastic","nameCn":"整形","required":true,"validateType":"21"},
+	{"name":"decimalDigits","nameCn":"小数","required":true,"decimalDigits":"2","validateType":"20"},
+	{"name":"limit","nameCn":"数字大小限制","required":true,"validateType":"52","minValue":"2","maxValue":"4"},
+	{"name":"base","nameCn":"基本类型","required":true,"validateType":"15"}
+]
